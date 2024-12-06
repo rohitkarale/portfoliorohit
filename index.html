@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- mail JS-->
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+    publicKey: "wqp2NbQXMDIV9T7cc",
+    });
+    })();
+    </script>
+
+
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <div>
+            <a href="#" class="logo">Portfolio</a>
+        </div>
+        <div class="right">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">My Professions</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+            <i class='bx bx-moon' id="lightMode-icon"></i>
+        </div>
+    </header>
+
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's</h3>
+            <h1>Rohit Navnath Karale</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Jr. Java Developer with experience in full-stack development and team leadership. Armed with a Master's in Computer Applications and a rich skill set spanning Java, Python, JavaScript, and a host of other cutting-edge technologies, I am poised to elevate your team's projects to new heights. Expert in Java, PHP, HTML/CSS, JavaScript, and various frameworks and libraries. Successfully collaborated with cross-functional teams to implement solutions and enhance payment processing capabilities for an e-commerce platform. Enthusiastic and results-driven software engineer with a passion for crafting exceptional eLearning / EdTech solutions. Led teams to design and deploy Android and web applications for Fuel Buddy and E-Waste Management. Seeking a Java Full Stack Developer position at a forward-thinking company to leverage skills in full-stack development and team leadership to support innovative projects.</p>
+            <div class="social-media">
+                <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="www.linkedin.com/in/rohit-karale-122381316" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                
+
+            </div>
+            <a class="btn" href="https://drive.google.com/file/d/1jiRko1O5htX06VaL3A2EysbuLRem9WTQ/view?usp=sharing"
+                target="_blank" download="Rohit Karale CV">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img1.jpg" alt="Profile Photo of Home" loading="lazy">
+        </div>
+    </section>
+
+
+    <!-- about section design  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img1.jpg" alt="Profile Photo of About" loading="lazy">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Jr. Java Developer</h3>
+            <p>Hi! I'm Rohit, I Post-Graduated from Zeal Institute Of Business Administration Computer Applications And Research,Pune. And graduated from Annasaheb Awate College,Manchar with a major in Computer Applications and Research. My education provided a robust foundation in Information Technologies. Through hands-on projects and collaborative research, I honed my skills in Programming and interpreting complex data, which complements my technical expertise in Java as backend programming and Angular and React as front end programming. My time at educational levels helps me with the knowledge and creating logical thinking mindset essential for excelling in the dynamic field of Java Developer.</p>
+            <p>I am a dedicated Java Developer professional with a passion for transforming complex data into actionable insights. With expertise in Spring, MySql, and advanced modeling techniques, I help organizations make data-driven decisions. My work focuses on uncovering trends, optimizing processes, and driving strategic initiatives to achieve business success.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+    <!-- skills section design  -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="container"> 
+            <div class="container1 pro-skills-container">
+                <h3 class="heading1">Professional Skills</h3>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">TeamWork</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container"> 
+            <div class="container1 skills-container">
+                <h3 class="heading1">Technical skills</h3>
+                <div class="Technical-bars">
+                    <div class="bar">
+                        <i  class='bx bxl-html5'></i>
+                        <i class='bx bxl-css3'></i>
+                        <div class="info">
+                            <span>HTML5 & CSS3</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-javascript'></i>
+                        <div class="info">
+                            <span>Javascript</span>
+                        </div>
+                        <div class="progress-line javascript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-bootstrap'></i>
+                        <div class="info">
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="progress-line bootstrap">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxs-data'></i>
+                        <div class="info">
+                            <span>My SQL</span>
+                        </div>
+                        <div class="progress-line sql">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-mongodb'></i>
+                        <div class="info">
+                            <span>Mongo DB</span>
+                        </div>
+                        <div class="progress-line mongodb">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-java'></i>
+                        <div class="info">
+                            <span>Java & Advance Java (J2EE with Servlet & JSP)</span>
+                        </div>
+                        <div class="progress-line java">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-python'></i>
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bx-notepad'></i>
+                        <div class="info">
+                            <span>XML</span>
+                        </div>
+                        <div class="progress-line xml">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxs-data'></i>
+                        <div class="info">
+                            <span>Hibernate</span>
+                        </div>
+                        <div class="progress-line hibernate">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-spring-boot'></i>
+                        <div class="info">
+                            <span>Spring (Spring MVC & Spring Boot)</span>
+                        </div>
+                        <div class="progress-line spring">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-react'></i>
+                        <div class="info">
+                            <span>React JS</span>
+                        </div>
+                        <div class="progress-line react">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-angular'></i>
+                        <div class="info">
+                            <span>Angular JS</span>
+                        </div>
+                        <div class="progress-line angular">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services section design  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Professions</span></h2>
+
+            <div class="services-container">
+                <services class="services-box">
+                    <i class='bx bxl-java'></i>
+                    <h3>Java Full Stack Developer</h3>
+                    <p> As an experienced Java Full Stack Developer, I possess a comprehensive skill set that allows me to build end-to-end web applications, from designing the user interface to managing backend services and databases. My expertise in both front-end and back-end technologies enables me to create robust, scalable, and efficient applications that meet complex business requirements. </p>
+                    <a href="#####" target="_blank" class="btn">Read More</a>
+                </services>
+
+                <services class="services-box">
+                    <i class='bx bxs-server'></i>
+                    <h3>Data Dngineer</h3>
+                    <p> As a Junior Data Engineer Trainee at 64 Squares, I gained hands-on experience in designing and implementing data pipelines, managing ETL processes, and optimizing data storage solutions. I contributed to both batch and real-time data processing using technologies like Apache Spark and Kafka, ensuring seamless data flow and high-quality data integration. My role also involved collaborating closely with data scientists and analysts, providing them with accurate and timely data to support critical business decisions.</p>
+                    <a href="#####" target="_blank" class="btn">Read More</a>
+                </services>
+
+                <services class="services-box">
+                    <i class='bx bxl-react'></i>
+                    <i class='bx bxl-angular'></i>
+                    <h3>React JS And Angular JS</h3>
+                    <p>As a proficient developer in both React and Angular, I specialize in building dynamic and responsive web applications that provide seamless user experiences. My expertise in these two leading front-end frameworks allows me to create robust, maintainable, and scalable applications tailored to meet diverse business needs.</p>
+                    <a href="#####" target="_blank" class="btn">Read More</a>
+                </services>
+                <services class="services-box">
+                    <i class='bx bx-data'></i>
+                    <i class='bx bxl-mongodb'></i> 
+                    <h3>SQL & Mongo DB</h3>
+                    <p>With deep expertise in both SQL and MongoDB, I specialize in managing and optimizing data storage, retrieval, and manipulation for diverse applications. My proficiency in these two database technologies allows me to handle structured and unstructured data efficiently, ensuring that data-driven applications are both robust and scalable.</p>
+                    <a href="#####" target="_blank" class="btn">Read More</a>
+                </services>
+        </div>
+    </section>
+
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="pimg1.avif" alt="Project 1 Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <p>Payment Integration- Trustly Payments (Integration). </p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pimg3.webp" alt="Project 2 Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <!-- <h4>Sigma Web Development</h4> -->
+                    <p>WeBlog – A blogging web application </p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pimg2.jpg" alt="Project 3 Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <!-- <h4>Sigma Web Development</h4> -->
+                    <p>E-Fuel Buddy – Android Application</p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pimg4.jpg" alt="Project 4 Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <!-- <h4>GUI Projects</h4> -->
+                    <p>E- Waste Management- Web Application </p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pimg6.jpg" alt="Project 5 Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <!-- <h4>GUI Projects</h4> -->
+                    <p>Library Management System- Adv. Java & Angular</p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pimg5.jpg" alt="Project 6     Thubnail" loading="lazy">
+                <div class="portfolio-layer">
+                    <h4>Convertors</h4>
+                    <p>Stock Market predictions- Python & Power BI</p>
+                    <a href="https://github.com/rohitkarale" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact section design      -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="fullName">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="mobileNumber">
+                <input type="text" placeholder="Email Subject" id="subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('contact').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const templateParams = {
+                fullName: document.getElementById('fullName').value,
+                email: document.getElementById('email').value,
+                mobileNumber: document.getElementById('mobileNumber').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+    
+            emailjs.send('service_b6knl4c', 'template_z4oj7hd', templateParams)
+                .then(function(response) {
+                    alert('Message Sent Successfully!');
+                }, function(error) {
+                    alert('Failed to send message: ' + JSON.stringify(error));
+                });
+        });
+    </script>
+
+
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Rohit Karale</h2>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 Rohit Karale. All Rights Reserved.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#home" class="footer-iconTop">
+                    <i class='bx bx-up-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Adding Scroll Revieal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typped Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
